@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+/*@import url('https://fonts.googleapis.com/css?family=Barlow');*/
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@700&display=swap');
 
 .video {
 	margin-top:0;
@@ -8,7 +9,7 @@
 	right: 0;
 	bottom: 0;
   	max-height: 100%;
-  	z-index: 100;
+  	z-index: 3;
 }
 
 h1.main, p.demos {
@@ -37,6 +38,7 @@ h1.main, p.demos {
 	z-index: 1000;
 }
 .sp-container h2 {
+	font-family: 'Expletus Sans', cursive;
 	position: absolute;
 	top: 30%;
 	line-height: 110%;

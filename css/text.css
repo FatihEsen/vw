@@ -43,7 +43,7 @@ h1.main, p.demos {
 	top: 30%;
 	line-height: 110%;
 	height: 90px;
-	font-size: 8vw;
+	font-size: 5vw;
 	width: 100%;
 	text-align: center;
 	color: transparent;
@@ -71,7 +71,7 @@ h1.main, p.demos {
 	animation-delay: 6s;
 }
 .sp-container h2.frame-4 {
-	font-size: 10vw;
+	font-size: 6vw;
 	-webkit-animation-delay: 9s;
 	-moz-animation-delay: 9s;
 	-ms-animation-delay: 9s;
@@ -281,3 +281,6 @@ h1.main, p.demos {
 		transform: scale(1) rotate(0deg);
 	}
 }
+
+
+

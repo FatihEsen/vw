@@ -2137,7 +2137,7 @@ nav#menu span.fa.fa-bars:hover {
 /* / End About */
 /* Start Tesitmonial  */
 .single-testimonial-area {
-  background-image: url(../img/about/testimonial-bg.jpg);
+  background-image: url(../img/about/testimonial-bg.png);
   background-size: cover;
   padding: 60px 0;
 }
@@ -2857,9 +2857,20 @@ nav#menu span.fa.fa-bars:hover {
 /*  End Progress Bars */
 /* Caounter Style */
 #counter {
-  background-image: url(../img/about/testimonial-bg.jpg);
+  background-image: url(../img/about/paralax.jpg);
   background-size: cover;
   padding: 60px 0;
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
 }
 
 .count-one {
@@ -3847,6 +3858,8 @@ a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
   overflow: hidden;
   display: block;
   position: relative;
+  padding: 15px;
+
 }
 
 .portfolio-img img {

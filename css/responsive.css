@@ -97,6 +97,10 @@
   .portfoli-content::before {
     left: 30px;
   }
+ .portfolio-img { 
+    margin-left: 15px;
+ }   
+    
   .testimonial-item {
     padding: 0;
   }

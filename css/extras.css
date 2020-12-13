@@ -1,5 +1,4 @@
 .section-title {
-  color: #585b60;
   font-size: 38px;
   text-align: center;
   letter-spacing: 1px;
@@ -9,17 +8,12 @@
   position: relative;
 }
 .section-padding{
-  padding: 60px 0!important;
+  padding: 60px 30px!important;
 }
 .controls{
 	padding: 0px!important;
 }
-#about{
-	background: #eee;
-}
-#team{
-	background: #eee;
-}
+
 .form-control:focus {
   box-shadow: none;
   outline: none;
@@ -282,16 +276,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .carousel-post h5 {
   margin-top: 20px;
-}
-
-#portfolio {
-  background: #eee;
-  width: 100%;
-}
-
-#portfolio .mix {
-  padding: 0;
-  display: none;
 }
 
 .controls {

@@ -385,9 +385,6 @@ strong {
 }
 
 /* End Headers */
-.section {
-  padding: 30px 0;
-}
 
 /* Footer */
 .footer-info {
@@ -556,7 +553,7 @@ footer #copyright .nav-inline {
 }
 
 .color-footer .widget-area {
-  background: #D14E63;
+  background: #ee4000;
 }
 
 footer .widget-title {
@@ -610,7 +607,7 @@ footer .menu li a {
 }
 
 footer .menu li a:hover {
-  color: #D14E63;
+  color: #ee4000;
 }
 
 .twitter-content ul li {
@@ -673,7 +670,7 @@ footer .menu li a:hover {
 }
 
 #copyright p a:hover {
-  color: #D14E63;
+  color: #ee4000;
 }
 
 .social-icon .facebook:hover {
@@ -764,6 +761,7 @@ footer .menu li a:hover {
   transition: 0.2s ease-in;
   border-radius: 0;
   padding: 9px 10px;
+  margin-bottom: 2px;
 }
 
 .btn span {
@@ -809,12 +807,12 @@ footer .menu li a:hover {
 }
 
 .btn-link:hover {
-  color: #D14E63;
+  color: #ee4000;
   text-decoration: none;
 }
 
 .btn-link:focus {
-  color: #D14E63;
+  color: #ee4000;
   text-decoration: none;
 }
 
@@ -853,7 +851,7 @@ footer .menu li a:hover {
 }
 
 .btn-filled:hover {
-  background: #D14E63;
+  background: #ee4000;
 }
 
 .btn-default-filled, .btn-default-filled:active, .btn-default-filled:focus {
@@ -864,8 +862,8 @@ footer .menu li a:hover {
 
 .btn-default-filled:hover {
   color: #fff;
-  background: #D14E63;
-  border: 2px solid #D14E63;
+  background: #ee4000;
+  border: 2px solid #ee4000;
 }
 
 /* / End Default Button */
@@ -1011,8 +1009,8 @@ footer .menu li a:hover {
 
 .pagination .btn-default-filled:hover {
   color: #fff;
-  background: #D14E63;
-  border: 1px solid #D14E63;
+  background: #ee4000;
+  border: 1px solid #ee4000;
 }
 
 /* End Paginations */
@@ -1618,8 +1616,16 @@ nav#menu span.fa.fa-bars:hover {
   border-radius: 50%;
 }
 
+#about{
+	background: #eee;
+}
+#team{
+	background: #eee;
+}
+
 #services {
-  padding: 30px 0;
+  background: #eee;
+
 }
 
 .service-box {
@@ -2110,8 +2116,8 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .owl-theme .owl-buttons div {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   display: block !important;
   background: transparent !important;
   text-align: center;
@@ -2130,8 +2136,7 @@ nav#menu span.fa.fa-bars:hover {
 
 .owl-theme .owl-buttons div i {
   color: #fff;
-  font-size: 16px;
-  line-height: 32px;
+  line-height: 48px;
 }
 
 /* / End About */
@@ -2192,6 +2197,11 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 /* Features Header */
+
+#feature {
+  background: #eee;
+}
+
 .features-header {
   background: #f5f5f5;
   margin: 30px 0;
@@ -2316,7 +2326,6 @@ nav#menu span.fa.fa-bars:hover {
 
 /* Pricing Table */
 #pricing {
-  padding: 30px 0;
 }
 
 .pricing-table {
@@ -2551,11 +2560,11 @@ nav#menu span.fa.fa-bars:hover {
   color: #fff;
 }
 
-.table-active .plan-list li {
+.table-active .plan-list p {
   color: #fff;
 }
 
-.table-active .plan-list li i {
+.table-active .plan-list p i {
   margin-right: 10px;
 }
 
@@ -2952,8 +2961,8 @@ nav#menu span.fa.fa-bars:hover {
 
 /* Carousels */
 .owl-theme .owl-controls .owl-page span {
-  width: 12px !important;
-  height: 12px !important;
+  width: 40px !important;
+  height: 40px !important;
   margin: 5px !important;
   background: #ee4000 !important;
 }
@@ -3023,16 +3032,16 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .carousel-indicators .active {
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   background-color: #fff;
   margin: 3px;
   opacity: 1;
 }
 
 .carousel-indicators li {
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   margin: 3px;
   background-color: #fff;
   border: 0;
@@ -3819,13 +3828,12 @@ address i {
 
 /* / End Alerts */
 #portfolio {
-  background: #444;
-  padding: 60px 0;
   width: 100%;
 }
 
 #portfolio .mix {
   padding: 0;
+  width: 100%;
   display: none;
 }
 
@@ -4670,26 +4678,6 @@ ul.nav-tabs li a {
   }
 }
 
-/* Custom CSS */
-body {
-  color: #444;
-  background: #ffffff;
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0px;
-}
-
 img {
   width: 100%;
-}
-
-.page-header {
-  font-size: 30px;
-  font-weight: 700;
-  border: none;
-  padding-top: 50px;
-  text-transform: uppercase;
-  margin: 0 0 20px 0;
 }

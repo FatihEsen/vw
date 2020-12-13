@@ -21,7 +21,7 @@
 
 .sp-container {
   margin-top: -10vw;
-	
+
   }
   .section-title {
     font-size: 26px;
@@ -52,8 +52,7 @@
 @media (max-width: 767px) {
 
 	.sp-container {
-	margin-top: -35vw;
-	
+	margin-top: -5vw;
 	}
 
   .section-padding {
@@ -97,10 +96,10 @@
   .portfoli-content::before {
     left: 30px;
   }
- .portfolio-img { 
+ .portfolio-img {
     margin-left: 15px;
- }   
-    
+ }
+
   .testimonial-item {
     padding: 0;
   }
@@ -126,4 +125,9 @@
   #copyright .nav-inline li a {
     padding: 0px 0px 0px 4px;
   }
+}
+@media (max-width: 480px) {
+  .sp-container {
+	margin-top: -80px;
+	}
 }

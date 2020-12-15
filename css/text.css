@@ -46,6 +46,7 @@ h1.main, p.demos {
 	font-size: 5vw;
 	width: 100%;
 	text-align: center;
+	text-transform: uppercase;
 	color: transparent;
 	-webkit-animation: blurFadeInOut 3s ease-in backwards;
 	-moz-animation: blurFadeInOut 3s ease-in backwards;
@@ -281,6 +282,3 @@ h1.main, p.demos {
 		transform: scale(1) rotate(0deg);
 	}
 }
-
-
-
